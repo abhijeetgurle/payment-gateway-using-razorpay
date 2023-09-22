@@ -9,4 +9,8 @@ router.get('/', (_req: express.Request, res: express.Response) => {
   res.send('Server is working');
 });
 
+router.post('/order', (_req: express.Request, res: express.Response) => {
+  res.json({ message: 'Order created' });
+});
+
 export default router;

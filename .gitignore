@@ -11,6 +11,9 @@ coverage
 # production
 build
 
+# secrets
+backend/.env
+
 # misc
 .DS_Store
 .env.local
